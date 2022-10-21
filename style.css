@@ -73,8 +73,29 @@ body{
     background-image: url(./MacBook\ Pro\ 16_\ -\ 1.png);
     background-position: left;
     color: white;
+    overflow-x: hidden;
 
 }
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(284.13deg, #12C4AE -31.68%, #006963 90.81%);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b300003c; 
+  }
 .token_row{
     padding: 5px 10px;
 }
@@ -356,6 +377,7 @@ font-weight: 500;
 font-size: 18px;
 line-height: 36px;
 color: #FFFFFF;
+cursor: pointer;
 
 opacity: 0.5;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -369,6 +391,7 @@ font-weight: 500;
 font-size: 18px;
 line-height: 36px;
 color: #FFFFFF;
+cursor: pointer;
 
 opacity: 0.5;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
