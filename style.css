@@ -1,0 +1,401 @@
+.mainDiv{
+    margin-top: 50px;
+    color: #fff;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.52);
+    border: 7px solid rgba(0, 0, 0, 0.54);
+    border-radius: 63px;
+}
+body{
+    background: url('./MacBook\ Pro\ 16_\ -\ 1.png');
+    height: 100vh;
+    width: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'poppins' !important;
+}
+/* .navbar_gradient{
+    background-image: linear-gradient(#000000 , #974048);
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+} */
+
+.swapbox_select {
+    width: 50%;
+    float: left; 
+}
+.swapbox{
+    overflow: auto;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #565656;
+    background: linear-gradient(180deg, #E18049 0%, rgba(225, 128, 73, 0.36) 99.98%, rgba(225, 128, 73, 0.015625) 99.99%, rgba(225, 128, 73, 0) 100%);
+    border-radius: 30px;
+}
+
+.headingDes{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.estimateGasDesign{
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.token_select{
+    padding:5px 0;
+}
+.token_select:hover{
+    background: linear-gradient(180deg, #E18049 0%, rgba(225, 128, 73, 0.36) 99.98%, rgba(225, 128, 73, 0.015625) 99.99%, rgba(225, 128, 73, 0) 100%);
+    cursor: pointer;
+    
+}
+.token_list_img, .token_image{
+    width: 40px;
+}
+.modal-body{
+    height: 600px;
+    overflow: scroll;
+    background-image: url(./MacBook\ Pro\ 16_\ -\ 1.png);
+    background-position: left;
+    color: white;
+
+}
+.token_row{
+    padding: 5px 10px;
+}
+.token_row:hover{
+    background-color: #e4e4e4;
+    cursor: pointer;
+}
+
+.modal .modal-dialog .modal-content{  background-color: #D9C48B; }
+
+#from_token_text{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+ #to_token_text{
+    font-size: 22px;
+    font-weight: bold;
+ }
+ .modal-header {
+    display: -ms-flexbox;
+    background: linear-gradient(284.13deg, #12C4AE -31.68%, #006963 90.81%);
+ }
+
+.wallet--btn {
+    width: 249px;
+    height: 64px;
+    background: linear-gradient(180deg, rgba(236, 216, 160, 0.74) 0%, rgba(170, 145, 75, 0.74) 100%);
+    background-blend-mode: darken;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Arimo';
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 23px;
+    color: #fff;
+}
+
+.shadowOutline {
+  text-shadow: 0 0 4px #974048, 0 0 4px #974048, 0 0 4px #974048, 0 0 4px #974048, 0 0 4px #974048, 0 0 4px #974048, 0 0 4px #974048, 0 0 4px #974048, 0 0 4px #974048, 0 0 4px #974048, 0 0 4px #974048, 0 0 4px #974048, 0 0 4px #974048, 0 0 4px #974048, 0 0 4px #974048, 0 0 4px #974048, 0 0 4px #974048, 0 0 4px #974048, 0 0 4px #974048, 0 0 4px #974048;
+}
+
+.width-extend{
+    width: 100vw;
+}
+.swapButton--design{
+    width: 530px;
+    height: 57px;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: bold;
+    background: linear-gradient(180deg, #FCE29C 0%, #974048 0.01%, rgba(150, 64, 72, 0.27) 3.12%, #7C3A42 99.98%, rgba(122, 56, 65, 0.0416667) 99.99%, rgba(122, 56, 65, 0) 100%);
+    border-radius: 10px 10px 50px 50px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.inputCoin{
+    height: 40px;
+    border-radius: 20px;
+}
+
+.select-token-text{
+       font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.shadow{
+    text-shadow: 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
+}
+
+/* .box1 {
+    background-color: #000;
+    color: #fff;
+    opacity: .3;
+} */
+
+.center {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+/* border: 5px solid #FFFF00; */
+/* padding: 10px; */
+/* position: absolute; */
+width: 751px;
+height: 450px;
+/* left: 271px;
+top: 206px; */
+background-color: white;
+border-radius: 30px;
+padding: 35px 60px;
+
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(75px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 40px;
+}
+
+.swap{
+    display: flex;
+   justify-content: center;
+   height: 25px;
+}
+
+.tsukiLogo{
+     display: flex;
+   justify-content: center;
+    /* position: absolute; */
+left: 30.17%;
+right: 26.59%;
+top: 9.73%;
+height: 125px;
+/* bottom: 42.04%; */
+}
+
+.swapTokenInput{
+    height: 30px;
+    
+}
+
+input{
+    background: rgba(255, 255, 255, 0.13);
+    color: white;
+      font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+}
+
+.prefix {
+    margin-right: -25px;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.gasText{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+opacity: 0.5;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+justify-content: center;
+margin-top: 40px;
+}
+
+.output{
+    left: 28.09%;
+right: 18.58%;
+top: 70.4%;
+bottom: 21.74%;
+margin-left: 132px;
+background: rgba(255, 255, 255, 0.13);
+border-radius: 15px;
+display: flex;
+justify-content: center;
+width: 350px;
+height: 35px;
+align-items:center ;
+  color: white;
+      font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 36px;
+}
+
+.swapTokenInput{
+    display: flex;
+    justify-content: space-between;
+    /* background: rgba(255, 255, 255, 0.13);
+    opacity: 0.1; */
+    /* margin-left: 10px; */
+/* border-radius: 15px;
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(75px);
+/* height: 40px; */ 
+}
+
+.leftInputDiv{
+     display: flex;
+    justify-content: space-between;
+    /*left: 7.15%;
+right: 51.78%;
+top: 45.65%;
+bottom: 43.81%;
+
+background: #FFFFFF;
+opacity: 0.9;
+border-radius: 15px;
+
+height: 40px;
+width: 250px;
+border-width: 0; */
+
+}
+
+input{
+    color: white;
+}
+
+.rightInputDiv{
+    display: flex;
+    justify-content: space-between;
+   /* left: 52.58%;
+right: 6.35%;
+top: 45.65%;
+bottom: 43.81%; */
+/* margin-left: 15px; */
+/* background: #FFFFFF;
+opacity: 0.9;
+border-radius: 15px;
+
+height: 40px;
+width: 150px;
+border-width: 0; */
+/* opacity: 0.9; */
+}
+
+.leftInput{
+    display: flex;
+    justify-content: space-between; 
+    /* background: rgba(255, 255, 255, 0.13); */
+    /* background: #FFFFFF; */
+    /* opacity: 0.1; */
+border-radius: 15px;
+height: 40px;
+width: 200px;
+border-width: 0;
+padding-left: 24px; 
+}
+
+.rightInput{
+    left: 52.58%;
+right: 6.35%;
+top: 45.65%;
+bottom: 43.81%;
+/* background: rgba(255, 255, 255, 0.13); */
+     /* background: #FFFFFF; */
+    /* opacity: 0.1; */
+border-radius: 15px;
+color: white;
+width: 200px;
+height: 40px;
+border-width: 0;
+padding-left: 24px;
+/* margin-left: 15px; */
+}
+
+.token_img{
+    margin-left: 10px;
+}
+
+#from_token_text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 36px;
+color: #FFFFFF;
+
+opacity: 0.5;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+#to_token_text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 36px;
+color: #FFFFFF;
+
+opacity: 0.5;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.buttonDiv{
+    display: flex;
+justify-content: center ;
+margin-top: 25px;
+}
+
+.swapButton{
+    left: 32.81%;
+right: 29.23%;
+top: 86.79%;
+bottom: 5.35%;
+
+background: linear-gradient(284.13deg, #12C4AE -31.68%, #006963 90.81%);
+border-radius: 30px;
+color: white;
+width: 250px;
+padding: 15px;
+border-width: 0;
+margin-top: 10px;
+}
+
+.arrowImage{
+    display: flex;
+    align-items: center;
+}
